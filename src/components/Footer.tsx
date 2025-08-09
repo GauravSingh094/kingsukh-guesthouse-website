@@ -17,13 +17,31 @@ const Footer: React.FC = () => {
               like Biharinath Hills and Baranti Lake, we provide the perfect base for your West Bengal adventure.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors">
+              <a 
+                href="https://facebook.com/kingsukh.guesthouse" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-yellow-400 transition-colors duration-300 transform hover:scale-110"
+                aria-label="Visit our Facebook page"
+              >
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors">
+              <a 
+                href="https://instagram.com/kingsukh.guesthouse" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-yellow-400 transition-colors duration-300 transform hover:scale-110"
+                aria-label="Visit our Instagram page"
+              >
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-yellow-400 transition-colors">
+              <a 
+                href="https://twitter.com/kingsukh_gh" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-yellow-400 transition-colors duration-300 transform hover:scale-110"
+                aria-label="Visit our Twitter page"
+              >
                 <Twitter className="h-5 w-5" />
               </a>
             </div>
@@ -55,7 +73,13 @@ const Footer: React.FC = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-5 w-5 text-yellow-400" />
-                <span>kkghosh0099@gmail.com</span>
+                <a 
+                  href="mailto:kkghosh0099@gmail.com?subject=Inquiry%20about%20King%20Sukh%20Guest%20House&body=Hello,%0D%0A%0D%0AI%20would%20like%20to%20inquire%20about%20your%20guest%20house.%0D%0A%0D%0AThank%20you."
+                  className="hover:text-yellow-400 transition-colors duration-300 hover:underline"
+                  aria-label="Send email to King Sukh Guest House"
+                >
+                  kkghosh0099@gmail.com
+                </a>
               </div>
             </div>
           </div>

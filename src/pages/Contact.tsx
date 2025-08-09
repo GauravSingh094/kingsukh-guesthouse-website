@@ -237,7 +237,7 @@ const Contact: React.FC = () => {
           <div className="animate-on-scroll">
             <div className="bg-white dark:bg-gray-900 p-4 rounded-lg shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.123456789!2d87.1234567!3d23.5234567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f7a1234567890a%3A0x123456789abcdef0!2sManpur%2C%20Barhanti%2C%20West%20Bengal%20723156!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.2234567890123!2d87.05123456789012!3d23.586234567890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f7a0b1c2d3e4f5%3A0x1a2b3c4d5e6f7890!2sKingsukh%20Guest%20House%2C%20Baranti%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1640995200000!5m2!1sen!2sin"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
@@ -245,6 +245,7 @@ const Contact: React.FC = () => {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 className="rounded-lg"
+                title="Kingsukh Guest House Location Map"
               ></iframe>
             </div>
           </div>
