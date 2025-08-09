@@ -33,8 +33,7 @@ const Home: React.FC = () => {
     },
   ];
 
-
-  useEffect(() => {
+useEffect(() => {
     const observerOptions = {
       threshold: 0.1,
       rootMargin: '0px 0px -50px 0px'
@@ -248,7 +247,14 @@ const Home: React.FC = () => {
                   </div>
                   
                   <button className="w-full bg-yellow-600 hover:bg-yellow-700 text-white px-4 py-2 rounded-lg font-semibold transition-colors duration-300">
-                    Book Now
+                    <a 
+                      href="https://wa.me/919007602180?text=Hello,%20I%20want%20to%20book%20a%20room%20at%20Kingsukh%20Guest%20House" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="block w-full h-full"
+                    >
+                      Book Now
+                    </a>
                   </button>
                 </div>
               </div>
